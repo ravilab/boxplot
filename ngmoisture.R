@@ -13,6 +13,7 @@ p1<-ggplot(data=moisture, aes(x=location, y=mositure, fill=location))+
   theme(legend.position="none")+
   labs(x="", y="Soil moisture (%)")+
 ylim(0, 1.25)+
+ xlim(0, 1.25)+
   
   
   theme_bw()+
